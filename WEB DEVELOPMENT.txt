@@ -1,0 +1,66 @@
+WEB DEVELOPMENT
+├── FRONTEND (Client-Side)
+│   ├── Languages
+│   │   ├── HTML (structure)
+│   │   ├── CSS (styling)
+│   │   └── JavaScript (interactivity)
+│   ├── Frameworks / Libraries
+│   │   ├── React.js
+│   │   ├── Vue.js
+│   │   └── Angular
+│   ├── Styling Tools
+│   │   ├── Sass / SCSS
+│   │   ├── Tailwind CSS
+│   │   └── Bootstrap
+│   └── Tools
+│       ├── Webpack / Vite (bundlers)
+│       └── NPM / Yarn (package managers)
+│
+├── BACKEND (Server-Side)
+│   ├── Languages
+│   │   ├── PHP
+│   │   ├── Python
+│   │   ├── JavaScript (Node.js)
+│   │   ├── Java
+│   │   └── Ruby
+│   ├── Frameworks
+│   │   ├── Laravel (PHP)
+│   │   ├── Django / Flask (Python)
+│   │   ├── Express.js (Node.js)
+│   │   └── Spring Boot (Java)
+│   └── Databases
+│       ├── SQL-based
+│       │   ├── MySQL
+│       │   ├── PostgreSQL
+│       │   └── SQLite
+│       └── NoSQL
+│           └── MongoDB
+│
+├── FULL-STACK (Both Sides)
+│   ├── Popular Stacks
+│   │   ├── MERN (MongoDB, Express, React, Node)
+│   │   ├── MEAN (MongoDB, Express, Angular, Node)
+│   │   ├── LAMP (Linux, Apache, MySQL, PHP)
+│   │   └── JAMstack (JavaScript, APIs, Markup)
+│   └── Tools
+│       ├── REST / GraphQL APIs
+│       ├── JSON / XML
+│       └── WebSockets
+│
+├── DEVOPS & DEPLOYMENT
+│   ├── Version Control: Git, GitHub
+│   ├── CI/CD: GitHub Actions, Jenkins
+│   ├── Deployment: Vercel, Netlify, Heroku, DigitalOcean, AWS
+│   └── Docker / Kubernetes (containerization)
+│
+└── EXTRA
+    ├── Testing Tools
+    │   ├── Jest (JavaScript)
+    │   ├── Mocha / Chai
+    │   └── PHPUnit (PHP)
+    ├── CMSs
+    │   ├── WordPress (PHP)
+    │   ├── Strapi (Node.js)
+    └── APIs
+        ├── REST
+        └── GraphQL
