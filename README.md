@@ -1,2 +1,2 @@
-# jslearn
+# devlearn
 learning javascript
