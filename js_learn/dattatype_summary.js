@@ -1,50 +1,65 @@
-//  Primitive
+// //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+// //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
-const score = 100
-const scoreValue = 100.3
+// const score = 100
+// const scoreValue = 100.3
 
-const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
+// const isLoggedIn = false
+// const outsideTemp = null
+// let userEmail;
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
-// const bigNumber = 3456543576654356754n
+// // const bigNumber = 3456543576654356754n
 
+// // Reference (Non primitive)
 
+// // Array, Objects, Functions
 
-// Reference (Non primitive)
+// const heros = ["shaktiman", "naagraj", "doga"];
+// let myObj = {
+//     name: "hitesh",
+//     age: 22,
+// }
 
-// Array, Objects, Functions
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
 
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
-    name: "hitesh",
-    age: 22,
-}
+// console.log(typeof anotherId);
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+// // https://262.ecma-international.org/5.1/#sec-11.4.3
+// // 1) Primitive Datatypes
+// //        Number => number
+// //        String  => string
+// //        Boolean  => boolean
+// //        null  => object
+// //        undefined  =>  undefined
+// //        Symbol  =>  symbol
+// //        BigInt  =>  bigint
 
-console.log(typeof anotherId);
+// // 2) Non-primitive Datatypes
+// //        Arrays  =>  object
+// //        Function  =>  function
+// //        Object  =>  object
 
-// https://262.ecma-international.org/5.1/#sec-11.4.3
-// 1) Primitive Datatypes
-//        Number => number
-//        String  => string
-//        Boolean  => boolean
-//        null  => object
-//        undefined  =>  undefined
-//        Symbol  =>  symbol
-//        BigInt  =>  bigint
+let ytname = "yt1name";
+let anoname = ytname;
+anoname = "chaiaurcode";
+console.log(ytname);
 
-// 2) Non-primitive Datatypes
-//        Arrays  =>  object
-//        Function  =>  function
-//        Object  =>  object
+let user1 = {
+  email:"prateek@gmail.com",
+  upi:"ppp@ifi"
+
+};
+
+let user2=user1;
+user2.email="prattteeekkk@gmaiiil.com"
+
+console.log(user1.email)
+console.log(user2.mail)
