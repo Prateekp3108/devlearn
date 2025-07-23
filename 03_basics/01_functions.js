@@ -45,7 +45,7 @@ function loginusermsg(username="random"){ //for default value
 
 }
 // console.log(loginusermsg("prateek"));
-// console.log(loginusermsg("prattt"));
+console.log(loginusermsg("prattt"));
 
 
 
