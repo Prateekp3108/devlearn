@@ -45,6 +45,34 @@ function loginusermsg(username="random"){ //for default value
 
 }
 // console.log(loginusermsg("prateek"));
-console.log(loginusermsg("prattt"));
+// console.log(loginusermsg("prattt"));
 
 
+
+function calccartprice(val1,val2,...num1){
+  return [...num1];
+}
+// console.log(calccartprice(200,400,5000,234567,98765));
+
+
+// const user={
+//   username:"aosdf",
+//   price:3434
+// }
+function handleobj(anybject){
+  // console.log(`Username is ${anybject.username} and the price is ${anybject.price}`);
+}
+// handleobj(user);
+
+handleobj({
+  username:"prateek",
+  price:100
+})
+
+const myNewarr=[200,400,100,600]
+
+function returnSecondValue(getArray){
+  return getArray[1];
+
+}
+console.log(returnSecondValue(myNewarr));
